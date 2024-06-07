@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "DELL Inspiron 15",
+      "price": 10,
+      "image": "https://placehold.co/150",
+      "category": "it"
+    },
+    {
+      "id": 2,
+      "name": "Uniqlo TShirt",
+      "price": 20,
+      "image": "https://placehold.co/150",
+      "category": "clothings"
+    },
+    {
+      "id": 3,
+      "name": "Cheese Cake",
+      "price": 30,
+      "image": "https://placehold.co/150",
+      "category": "foods"
+    },
+    {
+      "id": 4,
+      "name": "Uniqlo Skirt",
+      "price": 20,
+      "image": "https://placehold.co/150",
+      "category": "clothings"
+    }
+  ]
