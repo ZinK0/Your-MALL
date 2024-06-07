@@ -44,3 +44,5 @@ async function fetchProducts() {
 
 // Call the function to fetch products on page load
 fetchProducts();
+
+
