@@ -3,6 +3,7 @@
 :root {
   --theme-color: #f54d0e;
   --bg-color: #ffe8d3;
+  --bg-footer-color:#706e6e;
 }
 
 * {
@@ -88,4 +89,15 @@
 }
 #login_btn {
   width: 150px;
+}
+
+/*footer section*/
+
+.footer_heading{
+  color: var(--theme-color);
+
+}
+
+footer{
+  background-color: var(--bg-footer-color);
 }
