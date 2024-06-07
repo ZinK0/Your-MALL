@@ -59,3 +59,33 @@
   padding-bottom: 5px;
   border-bottom: 2px solid var(--theme-color);
 }
+/* Login page styles  */
+#login_body {
+  /* background-color: grey;
+  padding: 20px 40px;
+  border-radius: 20px; */
+  margin-top: 50px;
+}
+#login_section {
+  padding: 60px;
+}
+#login_section img {
+  width: 300px;
+  margin-top: 7 0px;
+}
+#login_header h1 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+#login_header p {
+  /* color: white; */
+  color: grey;
+}
+#btn_container {
+  display: flex;
+  justify-content: center;
+}
+#login_btn {
+  width: 150px;
+}
