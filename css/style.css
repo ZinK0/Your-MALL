@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 
+:root {
+  --theme-color: #f54d0e;
+  --bg-color: #ffe8d3;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +19,7 @@
 
 /* Navbar Section Styles  */
 .nav_color {
-  background-color: #ffe8d3;
+  background-color: var(--bg-color);
 }
 
 .nav_padding {
@@ -31,7 +36,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid orangered;
+  border: 2px solid var(--theme-color);
 }
 
 #navbar-logo-brand {
@@ -40,7 +45,7 @@
 
 #navbar-logo-brand a {
   text-decoration: none;
-  color: orangered;
+  color: var(--theme-color);
 }
 
 #navbar-logo img {
@@ -52,5 +57,5 @@
 }
 .nav-item a:hover {
   padding-bottom: 5px;
-  border-bottom: 2px solid orangered;
+  border-bottom: 2px solid var(--theme-color);
 }
