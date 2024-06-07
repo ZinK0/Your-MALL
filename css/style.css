@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+/* Test for vh */
+.testvh {
+  height: 400vh;
+}
+
+/* Navbar Section Styles  */
+#navbar-logo-grp {
+  display: flex;
+  justify-content: center;
+}
+
+#navbar-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid orangered;
+}
+
+#navbar-logo-brand {
+  padding-left: 10px;
+}
+
+#navbar-logo-brand a {
+  text-decoration: none;
+  color: orangered;
+}
+
+#navbar-logo img {
+  width: 100%;
+  padding: 5px;
+  object-fit: contain;
+  position: relative;
+  top: -5px;
+}
