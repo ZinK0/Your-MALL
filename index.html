@@ -12,9 +12,73 @@
     />
   </head>
   <body>
-     <header>
-      
-     </header>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="navbar-logo" href="#">
+            <img src="./images/logos/YOUR MALL LOGO.png" alt="Your MALL's logo"
+          /></a>
+          <div>
+            <h1 id="navbar-logo-brand">
+              <a href="#">Your MALL</a>
+            </h1>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Your MALL
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./login.html"
+                    >Log In
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./signup.html"
+                    >Sign Up</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cart.html"
+                    ><i class="bi bi-cart3 h3"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
   </body>
   <script src="./js/app.js"></script>
   <script src="./js/bootstrap.min.js"></script>
