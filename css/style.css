@@ -3,7 +3,7 @@
 :root {
   --theme-color: #f54d0e;
   --bg-color: #ffe8d3;
-  --bg-footer-color:#706e6e;
+  --bg-footer-color: #706e6e;
 }
 
 * {
@@ -93,11 +93,46 @@
 
 /*footer section*/
 
-.footer_heading{
+.footer_heading {
   color: var(--theme-color);
-
 }
 
-footer{
+footer {
   background-color: var(--bg-footer-color);
+}
+
+/* Card List Styles  */
+.product-lists {
+  width: 70%;
+  margin: auto;
+}
+
+.product-lists row {
+  justify-content: space-evenly;
+}
+
+/* #product-img {
+  padding: 20px 0;
+} */
+
+#product_price {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: black;
+}
+
+.fav_add {
+  border: none;
+  background-color: white;
+  padding-left: 5px;
+}
+
+.fav_add:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+.card_shadow {
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
