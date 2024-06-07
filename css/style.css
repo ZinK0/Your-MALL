@@ -13,12 +13,21 @@
 }
 
 /* Navbar Section Styles  */
+.nav_color {
+  background-color: #ffe8d3;
+}
+
+.nav_padding {
+  padding: 10px;
+}
+
 #navbar-logo-grp {
   display: flex;
   justify-content: center;
 }
 
 #navbar-logo {
+  margin-left: 20px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -40,4 +49,8 @@
   object-fit: contain;
   position: relative;
   top: -5px;
+}
+.nav-item a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid orangered;
 }
