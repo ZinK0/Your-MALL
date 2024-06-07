@@ -1,15 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+:root {
+  --theme-color: #f54d0e;
+  --bg-color: #ffe8d3;
+  --bg-footer-color: #706e6e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
 
 @media (min-width: 575px) {
-    #login_section {
-      width: 70%;
-      margin: auto;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-    }
-    #login_section img {
-      width: 500px;
-      border-right: 2px solid grey;
-      padding-right: 60px;
-    }
+  #login_section {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
+  #login_section img {
+    width: 500px;
+    border-right: 2px solid grey;
+    padding-right: 60px;
+  }
+}
+
+.input-focus-danger:focus {
+  border-color: #f1aeb5;
+  box-shadow: 0 0 0 0.2rem rgba(245, 198, 203, 0.25);
+}
+

@@ -79,6 +79,11 @@
   margin-bottom: 0;
   font-weight: bolder;
 }
+
+#login_header .login_back_text {
+  color: var(--theme-color);
+}
+
 #login_header p {
   /* color: white; */
   color: grey;
@@ -102,6 +107,10 @@ footer {
 }
 
 /* Card List Styles  */
+#product-section container {
+  margin: 50px 0;
+}
+
 .product-lists {
   width: 70%;
   margin: auto;

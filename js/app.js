@@ -10,11 +10,11 @@ async function fetchProducts() {
     const productsList = document.getElementById("products-list");
     products.forEach((product) => {
       const productDiv = document.createElement("div");
-      productDiv.classList.add("col");
+      productDiv.classList.add("col-sm-1", "col-md-3", "col-lg-4", "g-3");
       productDiv.innerHTML = `
-      <div class="col">
-      <div class="card card_shadow product-card" data-category="${product.category}">
-          <img id="product-img" src="${product.image}" class="card-img-top" alt="${product.name}">
+
+      <div class="p-3 card card_shadow product-card" data-category="${product.category}">
+          <img id="product-img" src="${product.image}" class="rounded card-img-top" alt="${product.name}">
           <div class="card-body">
               <h5 class="card-title">${product.name}</h5>
               <div class="d-flex justify-content-between align-items-center">
@@ -33,7 +33,7 @@ async function fetchProducts() {
               </div>
             </div>
           </div>
-        </div>
+
       `;
       productsList.appendChild(productDiv);
     });
