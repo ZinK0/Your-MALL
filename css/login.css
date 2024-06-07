@@ -1,0 +1,15 @@
+
+@media (min-width: 575px) {
+    #login_section {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    #login_section img {
+      width: 500px;
+      border-right: 2px solid grey;
+      padding-right: 60px;
+    }
+  }
