@@ -1,34 +1,4 @@
-// Uer Authentication Start Here
-$(document).ready(function () {
-  async function fetchSignedUpUser() {
-    try {
-      const response = await fetch(
-        "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/data/signedup_user.json"
-      );
-      const signedusers = await response.json();
-      console.log(signedusers);
-    } catch (error) {
-      console.error("Error fetching the signed user:", error);
-    }
-  }
-  fetchSignedUpUser();
-});
 
-// Check user input name and password in array for
-// registered or new
-function checkRegisteredUser(toCheck, registeredUsers) {
-  let found = false;
-  for (user of registeredUsers) {
-    if (
-      user.username == toCheck.username &&
-      user.password == toCheck.password
-    ) {
-      found = true;
-      console.log("Founded!!!");
-    }
-  }
-  return found;
-}
 
 // Function to fetch products and display them
 $(document).ready(function () {
