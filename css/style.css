@@ -151,8 +151,7 @@
 }
 
 footer {
-  background-color: var(--bg-footer-color); 
-
+  background-color: var(--bg-footer-color);
 }
 
 /* Card List Styles  */
@@ -198,4 +197,20 @@ footer {
 .card_shadow {
   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
     rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+/* Sign UP page Stat Here
+ */
+.signup_back_text {
+  color: var(--theme-color);
+}
+
+#signup_container {
+  margin: auto;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
 }
