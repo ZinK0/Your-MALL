@@ -40,7 +40,16 @@
     "price":250,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu30.jpg",
     "category": "it"
+  },
+  {
+    "id": 7,
+    "name": "Hoddie",
+    "price":7000,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/1.jpeg",
+    "category": "it"
   }
+
+  
 
  
  
