@@ -1,3 +1,19 @@
+// Uer Authentication Start Here
+$(document).ready(function () {
+  async function fetchSignedUpUser() {
+    try {
+      const response = await fetch(
+        "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/data/signedup_user.json"
+      );
+      const signedusers = await response.json();
+      console.log(signedusers);
+    } catch (error) {
+      console.error("Error fetching the signed user:", error);
+    }
+  }
+  fetchSignedUpUser();
+});
+
 // Function to fetch products and display them
 $(document).ready(function () {
   async function fetchProducts() {
@@ -6,6 +22,7 @@ $(document).ready(function () {
         "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/data/products.json"
       );
       const products = await response.json();
+      console.log(products);
 
       // Display products
       const productsList = document.getElementById("products-list");
