@@ -47,6 +47,20 @@
     "price":7000,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/1.jpeg",
     "category": "it"
+  },
+  {
+    "id": 8,
+    "name": "Dress",
+    "price":100,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/sg-11134201-23030-ytvpijkcjpov16.jpeg",
+    "category": "it"
+  },
+  {
+    "id": 9,
+    "name": "TShirt",
+    "price":200,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/S0bdef6b4587e4103b4f66e339378e397F.jpg",
+    "category": "it"
   }
 
   
