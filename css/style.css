@@ -116,6 +116,7 @@
 
 #search-form-inputgp {
   margin-left: 15px;
+  /* width: 100%; */
 }
 
 #search-form-inputgp input {
@@ -126,10 +127,6 @@
 }
 
 #search-form-inputgp input:focus {
-  border: none;
-}
-
-#search[type="text"]:active {
   border: none;
 }
 
@@ -154,7 +151,8 @@
 }
 
 footer {
-  background-color: var(--bg-footer-color);
+  background-color: var(--bg-footer-color); 
+
 }
 
 /* Card List Styles  */
