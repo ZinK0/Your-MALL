@@ -13,7 +13,7 @@
   font-family: "League Spartan", sans-serif;
 }
 
-@media (min-width: 575px) {
+/* @media (min-width: 575px) {
   #login_section {
     width: 70%;
     margin: auto;
@@ -23,13 +23,20 @@
   }
   #login_section img {
     width: 500px;
-    border-right: 2px solid grey;
-    padding-right: 60px;
+    /* border-right: 2px solid grey; */
+    /* padding-right: 60px; */
   }
-}
+} */
 
 .input-focus-danger:focus {
   border-color: #f1aeb5;
   box-shadow: 0 0 0 0.2rem rgba(245, 198, 203, 0.25);
 }
 
+#login_img_container {
+  width: 50%;
+}
+
+#login_body {
+  width: 50%;
+}
