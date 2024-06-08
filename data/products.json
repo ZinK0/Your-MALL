@@ -34,18 +34,61 @@
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/MacBook%20Pro.jpg",
     "category": "it"
   },
+  
   {
-    "id": 6,
-    "name": "Huawei",
+    "id": 7,
+    "name": "Huawei 30",
     "price":250,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu30.jpg",
     "category": "it"
   },
   {
-    "id": 7,
-    "name": "Hoddie",
-    "price":7000,
-    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/1.jpeg",
+    "id": 8,
+    "name": "Huawei 40",
+    "price":300,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu40.jpg",
+    "category": "it"
+  },
+  {
+    "id": 9,
+    "name": "Huawei 60",
+    "price":350,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu60.jpg",
+    "category": "it"
+  },
+  {
+    "id": 10,
+    "name": "iphone",
+    "price":599,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/i13.webp",
+    "category": "it"
+  },
+  {
+    "id": 11,
+    "name": "iphone",
+    "price":699,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/i14.jpeg",
+    "category": "it"
+  },
+  {
+    "id": 12,
+    "name": "iphone",
+    "price":999,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/ip15pro.jpg",
+    "category": "it"
+  },
+  {
+    "id": 13,
+    "name": "Samsung",
+    "price":350,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/sam21.jpeg",
+    "category": "it"
+  },
+  {
+    "id": 14,
+    "name": "Samsung",
+    "price":400,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/samsung.jpeg",
     "category": "it"
   },
   {
@@ -62,8 +105,8 @@
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/S0bdef6b4587e4103b4f66e339378e397F.jpg",
     "category": "it"
   }
+ 
 
-  
 
  
  
