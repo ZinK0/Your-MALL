@@ -129,6 +129,10 @@
   border: none;
 }
 
+#search[type="text"]:active {
+  border: none;
+}
+
 #search-btn {
   width: 100px;
   background-color: rgba(255, 68, 0, 0.799);
