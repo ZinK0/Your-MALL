@@ -14,7 +14,9 @@ $(document).ready(function () {
         productDiv.classList.add("col-sm-1", "col-md-3", "col-lg-4", "g-3");
         productDiv.innerHTML = `
             <div class="p-3 card card_shadow product-card" data-category="${product.category}">
-                <img id="product-img" src="${product.image}" class="rounded card-img-top" alt="${product.name}">
+                <div class="img_container">
+                    <img id="product-img" src="${product.image}" class="rounded card-img-top" alt="${product.name}">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">${product.name}</h5>
                     <div class="d-flex justify-content-between align-items-center">
