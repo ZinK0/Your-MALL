@@ -34,13 +34,7 @@
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/MacBook%20Pro.jpg",
     "category": "it"
   },
-  {
-    "id": 6,
-    "name": "Huawei",
-    "price":250,
-    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu30.jpg",
-    "category": "it"
-  },
+  
   {
     "id": 7,
     "name": "Huawei 30",
