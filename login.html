@@ -18,7 +18,7 @@
     />
   </head>
   <body>
-    <section id="login_section d-flex justify-content-center">
+    <section id="login_section">
       <div id="login_img_container">
         <img
           src="./images/product images/Shopping Login.svg"
@@ -30,25 +30,28 @@
           <h1>WELCOME <span class="login_back_text">BACK</span>!</h1>
           <p>Sign in your account.</p>
         </div>
-        <div>
-          <form action="" id="login_form">
+        <div id="login_form">
+          <form>
             <div class="mb-3">
-              <label for="login_name" class="form-label"
-                >Email address / Username</label
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
               >
               <input
-                type="text"
+                type="email"
                 class="form-control border-danger-subtle input-focus-danger"
-                id="login_name"
-                aria-describedby="emailHelp"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp" 
+                
               />
             </div>
             <div class="mb-3">
-              <label for="login_password" class="form-label">Password</label>
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
               <input
                 type="password"
                 class="form-control border-danger-subtle input-focus-danger"
-                id="login_password"
+                id="exampleInputPassword1"
               />
             </div>
             <div class="mb-3 form-check">
@@ -66,16 +69,11 @@
                 Login
               </button>
             </div>
-            <small
-              >Don't you have an account?
-              <a href="signup.html">Sign UP</a></small
-            >
           </form>
         </div>
       </div>
     </section>
   </body>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="./js/login.js"></script>
   <script src="./js/bootstrap.min.js"></script>
 </html>

@@ -13,30 +13,33 @@
   font-family: "League Spartan", sans-serif;
 }
 
-/* @media (min-width: 575px) {
-  #login_section {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  #login_section img {
-    width: 500px;
-    /* border-right: 2px solid grey; */
-    /* padding-right: 60px; */
-  }
-} */
 
+#login_img_container{
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  #login_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+#login_img_container {
+    text-align: center;
+}
+#login_img_container img {
+    max-width: 100%;
+    height: auto;
+}
+#login_body {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+}
 .input-focus-danger:focus {
   border-color: #f1aeb5;
   box-shadow: 0 0 0 0.2rem rgba(245, 198, 203, 0.25);
-}
-
-#login_img_container {
-  width: 50%;
-}
-
-#login_body {
-  width: 50%;
 }
