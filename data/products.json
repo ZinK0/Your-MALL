@@ -42,22 +42,43 @@
     "category": "it"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Huawei 30",
     "price":250,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu30.jpg",
     "category": "it"
   },
   {
-    "id": 6,
+    "id": 8,
     "name": "Huawei 40",
     "price":300,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu40.jpg",
     "category": "it"
   },
   {
-    "id": 6,
+    "id": 9,
     "name": "Huawei 60",
+    "price":350,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu60.jpg",
+    "category": "it"
+  },
+  {
+    "id": 10,
+    "name": "iphone",
+    "price":350,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu60.jpg",
+    "category": "it"
+  },
+  {
+    "id": 11,
+    "name": "iphone",
+    "price":350,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu60.jpg",
+    "category": "it"
+  },
+  {
+    "id": 12,
+    "name": "iphone",
     "price":350,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu60.jpg",
     "category": "it"
