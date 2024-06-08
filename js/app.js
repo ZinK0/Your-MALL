@@ -48,7 +48,6 @@ $(document).ready(function () {
 });
 
 // Cart Section Start Here
-
 // Empty list for cart  items
 // take cart from localstorage if there is or start empty list
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
