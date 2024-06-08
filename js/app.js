@@ -14,6 +14,22 @@ $(document).ready(function () {
   fetchSignedUpUser();
 });
 
+// Check user input name and password in array for
+// registered or new
+function checkRegisteredUser(toCheck, registeredUsers) {
+  let found = false;
+  for (user of registeredUsers) {
+    if (
+      user.username == toCheck.username &&
+      user.password == toCheck.password
+    ) {
+      found = true;
+      console.log("Founded!!!");
+    }
+  }
+  return found;
+}
+
 // Function to fetch products and display them
 $(document).ready(function () {
   async function fetchProducts() {
