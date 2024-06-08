@@ -40,7 +40,29 @@
     "price":250,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu30.jpg",
     "category": "it"
+  },
+  {
+    "id": 6,
+    "name": "Huawei 30",
+    "price":250,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu30.jpg",
+    "category": "it"
+  },
+  {
+    "id": 6,
+    "name": "Huawei 40",
+    "price":300,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu40.jpg",
+    "category": "it"
+  },
+  {
+    "id": 6,
+    "name": "Huawei 60",
+    "price":350,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu60.jpg",
+    "category": "it"
   }
+
 
  
  
