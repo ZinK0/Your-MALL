@@ -214,3 +214,21 @@ footer {
   align-items: center;
   gap: 20px;
 }
+
+/* Cart List Style Start here  */
+#cart-section li {
+  list-style: none;
+}
+
+.cart-list-container {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-list-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
