@@ -1,6 +1,10 @@
 let cartItems = JSON.parse(localStorage.getItem("cart"));
 
 if (cartItems) {
+  const cartBtn = document.getElementById("cart-btn");
+  cartBtn.innerHTML = `
+        <button id="checkout-btn" class="btn btn-danger checkout-btn">Check Out</button>
+    `;
   const cartList = document.getElementById("cart-lists");
   cartItems.forEach((cartItem) => {
     const cartDiv = document.createElement("li");
@@ -17,11 +21,7 @@ if (cartItems) {
                     </div>
             `;
     cartList.appendChild(cartDiv);
-  }
-const cartBtn = document.getElementById("cart-btn");
-
-
-  );
+  });
 } else {
   alert("Your cart is empty!");
   // Redirect to index.html
