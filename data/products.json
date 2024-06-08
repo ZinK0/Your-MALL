@@ -65,24 +65,39 @@
   {
     "id": 10,
     "name": "iphone",
-    "price":350,
-    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu60.jpg",
+    "price":599,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/i13.webp",
     "category": "it"
   },
   {
     "id": 11,
     "name": "iphone",
-    "price":350,
-    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu60.jpg",
+    "price":699,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/i14.jpeg",
     "category": "it"
   },
   {
     "id": 12,
     "name": "iphone",
+    "price":999,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/ip15pro.jpg",
+    "category": "it"
+  },
+  {
+    "id": 13,
+    "name": "Samsung",
     "price":350,
-    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu60.jpg",
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/sam21.jpeg",
+    "category": "it"
+  },
+  {
+    "id": 14,
+    "name": "Samsung",
+    "price":400,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/samsung.jpeg",
     "category": "it"
   }
+ 
 
 
  
