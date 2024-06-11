@@ -238,3 +238,9 @@ footer {
   top: 80%;
   left: 80%;
 }
+
+marquee {
+  font-size: 1.5rem;
+  background-color: rgb(234, 234, 216);
+  padding: 10px;
+}
