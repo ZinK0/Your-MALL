@@ -24,7 +24,8 @@ $(document).ready(function () {
                     <h5 class="card-title">${product.name}</h5>
                     <div class="d-flex justify-content-between align-items-center">
                       <small class="text-body-secondary">
-                          <span id="product_price">${product.price}</span>.00 $
+                         
+                        $<span id="product_price">${product.price}</span>
                       </small>
 
                       <div class="btn-group">

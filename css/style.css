@@ -244,3 +244,17 @@ marquee {
   background-color: rgb(234, 234, 216);
   padding: 10px;
 }
+/* topbtn */
+.topbtn {
+  font-size: 2rem;
+  text-align: right; 
+  position: absolute;
+  right: 11%;
+  top: 150%;
+  border: none;
+
+}
+/* $ text-body */
+.text-body-secondary {
+  font-size: 1.5rem;
+}
