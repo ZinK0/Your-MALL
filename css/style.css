@@ -13,6 +13,15 @@
   font-family: "League Spartan", sans-serif;
 }
 
+.w80 {
+  width: 80%;
+  margin: auto;
+}
+
+.dis-in-bl {
+  display: inline-block;
+}
+
 /* Test for vh */
 .testvh {
   height: 400vh;
@@ -60,6 +69,46 @@
   padding-bottom: 5px;
   border-bottom: 2px solid var(--theme-color);
 }
+
+/* Product Categories & Carousel Section Start Here  */
+#carousel_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 70px auto;
+}
+
+#product-categories {
+  width: 25%;
+  height: 200px;
+  padding: 35px 50px;
+  background-color: var(--bg-color);
+  border: 2px solid var(--theme-color);
+  border-radius: 10px;
+}
+#product-categories ul {
+  padding: 0;
+  margin: 0;
+}
+#product-categories ul li {
+  list-style: none;
+}
+
+#carousel {
+  width: 73%;
+  height: 200px;
+  background-color: var(--bg-color);
+  border: 2px solid var(--theme-color);
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+
+/* Cart Title Section Start Here  */
+#card-title-section {
+  margin-bottom: 20px;
+}
+
 /* Login page styles  */
 #login_body {
   /* background-color: grey;
@@ -247,12 +296,11 @@ marquee {
 /* topbtn */
 .topbtn {
   font-size: 2rem;
-  text-align: right; 
+  text-align: right;
   position: absolute;
   right: 11%;
   top: 150%;
   border: none;
-
 }
 /* $ text-body */
 .text-body-secondary {
