@@ -2,7 +2,7 @@
 
 :root {
   --theme-color: #f54d0e;
-  --bg-color: #ffe8d3;
+  --bg-color: #f7dbc0;
   --bg-footer-color: #706e6e;
 }
 
@@ -11,6 +11,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "League Spartan", sans-serif;
+}
+
+/* Return to Home page btn  */
+#return-home-btn {
+  width: 100%;
+  position: absolute;
+  right: -80%;
 }
 
 #login_img_container {
