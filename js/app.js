@@ -1,5 +1,3 @@
-
-
 // Function to fetch products and display them
 $(document).ready(function () {
   async function fetchProducts() {
@@ -14,7 +12,7 @@ $(document).ready(function () {
       const productsList = document.getElementById("products-list");
       products.forEach((product) => {
         const productDiv = document.createElement("div");
-        productDiv.classList.add("col-sm-1", "col-md-3", "col-lg-4", "g-3");
+        productDiv.classList.add("col-sm-12", "col-md-4", "col-lg-3", "g-3");
         productDiv.innerHTML = `
             <div class="p-3 card card_shadow product-card" data-category="${product.category}">
                 <div class="img_container">
@@ -24,7 +22,7 @@ $(document).ready(function () {
                     <h5 class="card-title">${product.name}</h5>
                     <div class="d-flex justify-content-between align-items-center">
                       <small class="text-body-secondary">
-                         
+
                         $<span id="product_price">${product.price}</span>
                       </small>
 
