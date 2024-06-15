@@ -19,12 +19,6 @@
   </head>
   <body>
     <section id="login_section">
-      <!-- Close and Return to main page button  -->
-      <div id="return-home-btn">
-        <button>
-          <i class="bi bi-x-circle"></i>
-        </button>
-      </div>
       <div id="login_img_container">
         <img
           src="./images/product images/Shopping Login.svg"
@@ -43,14 +37,16 @@
                 >Email address</label
               >
               <input
-                type="email"
+                type="text"
                 class="form-control border-danger-subtle input-focus-danger"
                 id="exampleInputEmail1"
-                aria-describedby="emailHelp"
+                aria-describedby="emailHelp" 
+                
+                
               />
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"
+              <label for="exampleInputPassword1" class="form-label" id="pass"
                 >Password</label
               >
               <input
@@ -64,6 +60,7 @@
                 type="checkbox"
                 class="form-check-input"
                 id="exampleCheck1"
+                
               />
               <label class="form-check-label" for="exampleCheck1"
                 >Remember me.</label
@@ -75,9 +72,6 @@
               </button>
             </div>
           </form>
-          <p class="not-member">
-            Not A Member ? <strong><a href="./signup.html">Join Now</a></strong>
-          </p>
         </div>
       </div>
     </section>
