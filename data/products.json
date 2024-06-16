@@ -214,7 +214,28 @@
     "id": 30,
     "name": "MacBook",
     "price": 1199,
-    "image": "",
+    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/product%20images/laptops/mac.jpg",
+    "category": "it"
+  },
+  {
+    "id": 30,
+    "name": "Hp Laptop",
+    "price": 200,
+    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/product%20images/laptops/hp.jpeg",
+    "category": "it"
+  },
+  {
+    "id": 30,
+    "name": "Dell Laptop",
+    "price": 179,
+    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/product%20images/laptops/dell.png",
+    "category": "it"
+  },
+  {
+    "id": 30,
+    "name": "Acer Laptop",
+    "price": 200,
+    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/product%20images/laptops/acer.jpg",
     "category": "it"
   }
 ]
