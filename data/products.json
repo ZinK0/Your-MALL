@@ -209,5 +209,12 @@
     "price": 300,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Stylish%20bag%20bag%20for%20girls%20beautiful%20hand%20bag%20copy%204.jpeg",
     "category": "it"
+  },
+  {
+    "id": 30,
+    "name": "MacBook",
+    "price": 1199,
+    "image": "",
+    "category": "it"
   }
 ]
