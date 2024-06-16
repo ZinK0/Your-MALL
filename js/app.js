@@ -60,7 +60,6 @@ function addToCart(product) {
   // updateCartUI();
 }
 
-
 $(document).ready(function () {
   //   updateCartUI();
   $("#products-list").on("click", ".add-to-cart", function () {
@@ -71,10 +70,28 @@ $(document).ready(function () {
       image: $(this).data("image"),
       category: $(this).data("category"),
     };
-    console.log($(this).data("price"));
-    console.log($(this).data("image"));
-    console.log($(this).data("id"));
-    addToCart(product);
-    console.log("hello");
+    // console.log($(this).data("price"));
+    // console.log($(this).data("image"));
+    // console.log($(this).data("id"));
+
+    // Initialize login state if not already set
+    if (!localStorage.getItem("loginState")) {
+      localStorage.setItem("loginState", JSON.stringify({ state: false }));
+    }
+
+    // Get the login state
+    let loginState = JSON.parse(localStorage.getItem("loginState"));
+
+    // Check the loginstate and precess the add to cart function
+    if (loginState.state) {
+      addToCart(product);
+      // alert("Added Successfully!");
+      
+    } else {
+      alert("You need to login before adding to your cart!");
+      window.location.href = "login.html";
+    }
+    // console.log(loginState.state);
+    // console.log("hello");
   });
 });

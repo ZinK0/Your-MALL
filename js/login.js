@@ -34,6 +34,16 @@ $(document).ready(function () {
   let loginPassword = document.getElementById("login_password");
   let loginForm = document.querySelector("#login_form");
 
+  // Save Login State
+  function saveLoginState() {
+    let loginState = {
+      name: loginUsername.value,
+      state: "True",
+    };
+
+    localStorage.setItem("loginState", JSON.stringify(loginState));
+  }
+
   loginForm.addEventListener("submit", async (e) => {
     e.preventDefault();
     let loginDATA = {
@@ -49,6 +59,7 @@ $(document).ready(function () {
     // TODO: separate the function for login success data
     if (checkRegisteredUser(loginDATA, registeredAccounts)) {
       alert("Login Success!!!");
+      saveLoginState();
       // Redirect to index.html
       window.location.href = "index.html";
     } else {
