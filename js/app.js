@@ -60,6 +60,7 @@ function addToCart(product) {
   // updateCartUI();
 }
 
+
 $(document).ready(function () {
   //   updateCartUI();
   $("#products-list").on("click", ".add-to-cart", function () {

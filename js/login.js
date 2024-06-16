@@ -1,5 +1,4 @@
 // User Authentication Start Here
-
 $(document).ready(function () {
   async function fetchSignedUpUser() {
     try {
@@ -15,6 +14,7 @@ $(document).ready(function () {
   }
 
   // Function to check user input name and password in array for registered or new
+  // TODO: future update have to add two option like email and username
   function checkRegisteredUser(toCheck, registeredUsers) {
     let found = false;
     for (const user of registeredUsers) {
@@ -43,7 +43,7 @@ $(document).ready(function () {
 
     // Fetch registered users
     let registeredAccounts = await fetchSignedUpUser();
-    console.log(registeredAccounts);
+    // console.log(registeredAccounts);
 
     // You have to get the login success data for unlock the feature in ecommerce
     // TODO: separate the function for login success data
