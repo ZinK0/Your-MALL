@@ -176,7 +176,9 @@
 }
 
 #search-form-inputgp input:focus {
-  border: none;
+  border: none; /* Remove border on focus */
+  outline: none;
+  box-shadow: none; /* Optionally remove any shadow */
 }
 
 #search-btn {
