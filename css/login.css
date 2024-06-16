@@ -13,15 +13,12 @@
   font-family: "League Spartan", sans-serif;
 }
 
-
-
 #login_section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 #login_img_container {
@@ -40,7 +37,6 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  /* text-align: center; */
 }
 
 #login_header h1 {
@@ -63,7 +59,8 @@
   float: left;
 }
 
-#exampleInputEmail1, #exampleInputPassword1 {
+#exampleInputEmail1,
+#exampleInputPassword1 {
   width: 100%;
   margin: 0;
 }
@@ -72,8 +69,6 @@
   border-color: #f1aeb5;
   box-shadow: 0 0 0 0.2rem rgba(245, 198, 203, 0.25);
 }
-
-
 
 .form-check-label {
   margin-left: 10px;
@@ -94,11 +89,10 @@
   transition: background-color 0.3s ease;
 }
 
-
-
 @media (min-width: 576px) {
   #login_body {
     padding: 40px;
+    margin-right: 50px;
   }
 
   #login_header h1 {
@@ -111,3 +105,28 @@
     text-align: left;
   }
 }
+
+@media (max-width: 575px) {
+  #login_section {
+    flex-direction: column;
+  }
+
+  #login_img_container,
+  #login_body {
+    flex: 1 1 100%;
+  }
+
+  #login_img_container {
+    order: 1;
+  }
+
+  #login_body {
+    order: 2;
+  }
+
+  #login_img_container img {
+    margin-bottom: 20px;
+  }
+}
+
+
