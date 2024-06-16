@@ -1,0 +1,53 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 30px;
+}
+
+#signup_btn {
+  margin-top: 20px;
+}
+
+.signup_back_text {
+  color: #dc3545; 
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .order-1 {
+    order: 1;
+    padding: 20px;
+  }
+  .order-2 {
+    order: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    align-items: center;
+  }
+
+  .col-md-8 {
+    max-width: 50%;
+  }
+}
+
+
+
+
+
+
+
+  
+  
+  

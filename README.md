@@ -59,6 +59,12 @@ To get a local copy up and running, follow these simple steps:
 
 Distributed under the MIT License.
 
-## Collaborator
+## Collaborators
+
+Master Anku - [ankumaster1@gmail.com](mailto:ankumaster1@gmail.com)
 
 Zin KO - [mrzinko.it@gmail.com](mailto:mrzinko.it@gmail.com)
+
+Thura Phyo - [thuyaphyo7877@gmail.com](mailto:thuyaphyo7877@gmail.com)
+
+Yamin Thet - [yaminthet886@gmail.com](mailto:yaminthet886@gmail.com)
