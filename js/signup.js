@@ -37,6 +37,7 @@ $(document).ready(function () {
   let signupBtn = document.querySelector("#signup_btn");
   let signupForm = document.querySelector("#signup_form");
   let signupUsername = document.getElementById("signup_name");
+  let signupEmail = document.getElementById("signup_email");
   let signupPassword = document.getElementById("signup_password");
 
   // Sign UP Logic Start Here
@@ -57,12 +58,14 @@ $(document).ready(function () {
     if (checkRegisteredUser(signupDATA, registeredAccounts)) {
       alert("Already SingUP!");
     } else {
+      alert("Thanks for Signup!");
       console.log("You haven't register yet, now registered");
       registeredAccounts.push(signupDATA);
       storeLocal(registeredAccounts);
     }
 
     signupUsername.value = "";
+    signupEmail.value = "";
     signupPassword.value = "";
   });
 });

@@ -4,73 +4,105 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="./css/signup.css" />
-    <link rel="icon" type="image/x-icon" href="/images/logos/YOUR MALL LOGO.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/logos/YOUR MALL LOGO.png"
+    />
   </head>
   <body>
     <section class="vh-100">
-     
       <div class="container h-100">
-       
         <div class="row justify-content-center align-items-center h-100">
-          
           <div class="col-lg-6 col-md-8 col-sm-10 order-2 order-lg-1">
-            
             <div class="card shadow-lg">
-             
               <div class="card-body">
-               
-                <h1 class="card-title text-center mb-4">WELCOME To<span class="signup_back_text"> Your MALL</span>!</h1>
-                
-                <p class="card-text text-center mb-4">Create An Account.</p>
-                
-                <form id="signup_form">
+                <h1 class="card-title mb-4">
+                  WELCOME To <br /><span class="signup_back_text">
+                    Your MALL</span
+                  >!
+                </h1>
 
+                <p class="card-text mb-4">
+                  Create an account you can order your favourite products easily
+                  and quickly.
+                </p>
+
+                <form id="signup_form">
                   <div class="form-group">
                     <label for="signup_name">Username</label>
-                    <input type="text" class="form-control" id="signup_name" aria-describedby="username" required />
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="signup_name"
+                      aria-describedby="username"
+                      required
+                    />
                   </div>
 
                   <div class="form-group">
-                    <label for="signup_name">Email address</label>
-                    <input type="email" class="form-control" id="signup_name" aria-describedby="emailHelp" required />
+                    <label for="signup_email">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="signup_email"
+                      aria-describedby="emailHelp"
+                      required
+                    />
                   </div>
 
                   <div class="form-group">
                     <label for="signup_password">Password</label>
-                    <input type="password" class="form-control" id="signup_password" required />
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="signup_password"
+                      required
+                    />
                   </div>
 
-                  <button id="signup_btn" type="submit" class="btn btn-danger btn-block">Sign Up</button>
+                  <button
+                    id="signup_btn"
+                    type="submit"
+                    class="btn btn-danger btn-block"
+                  >
+                    Sign Up
+                  </button>
 
-                  <small class="d-block text-center mt-3">Already have an account? <a href="login.html">Login</a></small>
-
+                  <div id="signup-to-login">
+                    <strong
+                      ><p class="d-block text-center mt-3">
+                        Already have an account? <a href="login.html">Login</a>
+                      </p>
+                    </strong>
+                  </div>
                 </form>
-
               </div>
-
             </div>
-            
           </div>
 
           <div class="col-lg-6 col-md-8 col-sm-10 order-1 order-lg-2">
-
-            <img src="./images/product images/undraw_login_re_4vu2.svg" alt="Shopping Signup Picture" class="img-fluid" />
-
+            <img
+              src="./images/product images/undraw_login_re_4vu2.svg"
+              alt="Shopping Signup Picture"
+              class="img-fluid"
+            />
           </div>
-
         </div>
-
       </div>
-
     </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-
+    <script src="./js/signup.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-
   </body>
-  
 </html>
