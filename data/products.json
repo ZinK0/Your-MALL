@@ -97,6 +97,13 @@
     "price": 200,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/product%20images/laptops/acer.jpg",
     "category": "it"
+  },
+  {
+    "id": 19,
+    "name": "acer laptop",
+    "price": 200,
+    "image": "",
+    "category": "it"
   }
   
   
