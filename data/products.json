@@ -63,10 +63,31 @@
     "category": "it"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "MacBook",
     "price": 1199,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/mac.jpg",
+    "category": "it"
+  },
+  {
+    "id": 11,
+    "name": "Hp laptop",
+    "price": 200,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/hp.jpeg",
+    "category": "it"
+  },
+  {
+    "id": 12,
+    "name": "Dell laptop",
+    "price": 200,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/dell.png",
+    "category": "it"
+  },
+  {
+    "id": 13,
+    "name": "Acer laptop",
+    "price": 200,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/acer.jpg",
     "category": "it"
   },
   {
