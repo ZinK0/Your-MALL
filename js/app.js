@@ -60,6 +60,9 @@ function addToCart(product) {
   // updateCartUI();
 }
 
+// Get the login state
+let loginState = JSON.parse(localStorage.getItem("loginState"));
+
 $(document).ready(function () {
   //   updateCartUI();
   $("#products-list").on("click", ".add-to-cart", function () {
@@ -79,14 +82,10 @@ $(document).ready(function () {
       localStorage.setItem("loginState", JSON.stringify({ state: false }));
     }
 
-    // Get the login state
-    let loginState = JSON.parse(localStorage.getItem("loginState"));
-
     // Check the loginstate and precess the add to cart function
     if (loginState.state) {
       addToCart(product);
       // alert("Added Successfully!");
-      
     } else {
       alert("You need to login before adding to your cart!");
       window.location.href = "login.html";
@@ -95,3 +94,18 @@ $(document).ready(function () {
     // console.log("hello");
   });
 });
+
+// Change login profile when the login state is true
+function setLoginProfile(loginState) {
+  if (loginState.state) {
+    $(".login-nav-btn").replaceWith(`
+    <li class="nav-item">
+        <div class="profile-img">
+            <img src="./images/profiles/Profile Male.svg" alt="" />
+        </div>
+    </li>
+    `);
+  }
+}
+
+setLoginProfile(loginState);
