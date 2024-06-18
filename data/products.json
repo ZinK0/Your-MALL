@@ -63,6 +63,13 @@
     "category": "it"
   },
   {
+    "id": 9,
+    "name": "MacBook",
+    "price": 1199,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/mac.jpg",
+    "category": "it"
+  },
+  {
     "id": 10,
     "name": "color Bloom liquid Blush",
     "price": 240,
