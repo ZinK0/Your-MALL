@@ -15,10 +15,11 @@ if (cartItems) {
                             <img width="150px" src="${cartItem.image}" alt="${cartItem.name}"/>
                             <p>${cartItem.name}</p>
                         </div>
-                        <div class="cart-list-price>
+                        <div class="cart-list-price">
                             <p>${cartItem.price}</p>
                         </div>
-                    </div>
+                        <button class="btn btn-primary" id="remove-cart-item" data-id="${cartItem.id}" data-name="${cartItem.name}" data-price="${cartItem.price}" data-image="${cartItem.image}" data-category="${cartItem.category}">Remove</button>
+                      </div>
             `;
     cartList.appendChild(cartDiv);
   });
@@ -38,4 +39,17 @@ $(document).ready(function () {
     // Redirect to index.html
     window.location.href = "index.html";
   });
+});
+
+$(document).on("click", "#remove-cart-item", function () {
+  // localStorage.
+  let selectedItem = {
+    id: $(this).data("id"),
+    name: $(this).data("name"),
+    price: $(this).data("price"),
+    image: $(this).data("image"),
+    category: $(this).data("category"),
+  };
+
+  console.log(selectedItem);
 });

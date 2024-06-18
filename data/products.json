@@ -623,6 +623,13 @@
     "price": 310,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/p.jpeg",
     "category": "it"
+  },
+  {
+    "id": 19,
+    "name": "acer laptop",
+    "price": 200,
+    "image": "",
+    "category": "it"
   }
    
 ]
