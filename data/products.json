@@ -1,4 +1,4 @@
-[  
+[
   {
     "id": 1,
     "name": "Macbook Pro 2024",
@@ -6,7 +6,6 @@
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/MacBook%20Pro.jpg",
     "category": "it"
   },
-
   {
     "id": 2,
     "name": "Huawei 30",
@@ -74,35 +73,35 @@
     "id": 11,
     "name": "Rose Blush",
     "price": 150,
-    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b11.jpeg",
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Beauty/b11.jpeg",
     "category": "it"
   },
   {
     "id": 12,
     "name": "Better Brows in a flash",
     "price": 200,
-    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b12.jpeg",
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Beauty/b12.jpeg",
     "category": "it"
   },
   {
     "id": 13,
     "name": "Serum Foundation",
     "price": 260,
-    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b14.jpeg",
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Beauty/b14.jpeg",
     "category": "it"
   },
   {
     "id": 14,
     "name": "Vaseline Rose lip",
     "price": 190,
-    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b20.jpeg",
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Beauty/b20.jpeg",
     "category": "it"
   },
   {
     "id": 15,
     "name": "Under-Eye Concealers",
     "price": 120,
-    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b21.jpeg",
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Beauty/b21.jpeg",
     "category": "it"
   },
   {
@@ -623,6 +622,6 @@
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/p.jpeg",
     "category": "it"
   }
-  
-   
+
+
 ]
