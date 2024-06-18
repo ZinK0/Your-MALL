@@ -1,11 +1,5 @@
 [
-  {
-    "id": 4,
-    "name": "Uniqlo Skirt",
-    "price": 20,
-    "image": "https://image.uniqlo.com/UQ/ST3/sg/imagesgoods/464847/item/sggoods_09_464847.jpg?width=750",
-    "category": "clothings"
-  },
+  
   {
     "id": 5,
     "name": "Macbook Pro 2024",
@@ -68,34 +62,6 @@
     "name": "Samsung",
     "price": 400,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/samsung.jpeg",
-    "category": "it"
-  },
-  {
-    "id": 15,
-    "name": "Macbook",
-    "price": 1199,
-    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/product%20images/laptops/mac.jpg",
-    "category": "it"
-  },
-  {
-    "id": 16,
-    "name": "hp laptop",
-    "price": 200,
-    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/product%20images/laptops/hp.jpeg",
-    "category": "it"
-  },
-  {
-    "id": 17,
-    "name": "dell laptop",
-    "price": 200,
-    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/product%20images/laptops/dell.png",
-    "category": "it"
-  },
-  {
-    "id": 18,
-    "name": "acer laptop",
-    "price": 200,
-    "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/product%20images/laptops/acer.jpg",
     "category": "it"
   },
   {
