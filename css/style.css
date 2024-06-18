@@ -70,6 +70,13 @@
   border-bottom: 2px solid var(--theme-color);
 }
 
+/* Profile Image  */
+.profile-img img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
 /* Product Categories & Carousel Section Start Here  */
 #carousel_section {
   display: flex;
