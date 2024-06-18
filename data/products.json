@@ -1,7 +1,6 @@
-[
-  
+[  
   {
-    "id": 5,
+    "id": 1,
     "name": "Macbook Pro 2024",
     "price": 2499,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/MacBook%20Pro.jpg",
@@ -9,627 +8,621 @@
   },
 
   {
-    "id": 7,
+    "id": 2,
     "name": "Huawei 30",
     "price": 250,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu30.jpg",
     "category": "it"
   },
   {
-    "id": 8,
+    "id": 3,
     "name": "Huawei 40",
     "price": 300,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu40.jpg",
     "category": "it"
   },
   {
-    "id": 9,
+    "id": 4,
     "name": "Huawei 60",
     "price": 350,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu60.jpg",
     "category": "it"
   },
   {
-    "id": 10,
+    "id": 5,
     "name": "iphone",
     "price": 599,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/i13.webp",
     "category": "it"
   },
   {
-    "id": 11,
+    "id": 6,
     "name": "iphone",
     "price": 699,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/i14.jpeg",
     "category": "it"
   },
   {
-    "id": 12,
+    "id": 7,
     "name": "iphone",
     "price": 999,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/ip15pro.jpg",
     "category": "it"
   },
   {
-    "id": 13,
+    "id": 8,
     "name": "Samsung",
     "price": 350,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/sam21.jpeg",
     "category": "it"
   },
   {
-    "id": 14,
+    "id": 9,
     "name": "Samsung",
     "price": 400,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/samsung.jpeg",
     "category": "it"
   },
   {
-    "id": 19,
+    "id": 10,
     "name": "color Bloom liquid Blush",
     "price": 240,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b1.jpeg",
     "category": "it"
   },
   {
-    "id": 20,
+    "id": 11,
     "name": "Rose Blush",
     "price": 150,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b11.jpeg",
     "category": "it"
   },
   {
-    "id": 21,
+    "id": 12,
     "name": "Better Brows in a flash",
     "price": 200,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b12.jpeg",
     "category": "it"
   },
   {
-    "id": 22,
+    "id": 13,
     "name": "Serum Foundation",
     "price": 260,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b14.jpeg",
     "category": "it"
   },
   {
-    "id": 23,
+    "id": 14,
     "name": "Vaseline Rose lip",
     "price": 190,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b20.jpeg",
     "category": "it"
   },
   {
-    "id": 24,
+    "id": 15,
     "name": "Under-Eye Concealers",
     "price": 120,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b21.jpeg",
     "category": "it"
   },
   {
-    "id": 25,
+    "id": 16,
     "name": "Fenty Beauty Stick Contour",
     "price": 200,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b7.jpeg",
     "category": "it"
   },
   {
-    "id": 26,
+    "id": 17,
     "name": "Lip Sleeping Mask",
     "price": 220,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b8.jpeg",
     "category": "it"
   },
   {
-    "id": 27,
+    "id": 18,
     "name": "Dolce Vita Liquid Blushes",
     "price": 250,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b9.jpeg",
     "category": "it"
   },
   {
-    "id": 28,
+    "id": 19,
     "name": "Charlotte Tilbury",
     "price": 300,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Beauty/b4.jpeg",
     "category": "it"
   },
   {
-    "id": 29,
+    "id": 20,
     "name": "Defender Portable Speaker",
     "price": 260,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Bluetooth/h0.jpeg",
     "category": "it"
   },
   {
-    "id": 30,
+    "id": 21,
     "name": "Retro Bump Box",
     "price": 290,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Bluetooth/h11.jpeg",
     "category": "it"
   },
   {
-    "id": 31,
+    "id": 22,
     "name": "Portable Bluetooth",
     "price": 290,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Bluetooth/h12.jpeg",
     "category": "it"
   },
   {
-    "id": 32,
+    "id": 23,
     "name": "Speaker Pink",
     "price": 250,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Bluetooth/h9.jpeg",
     "category": "it"
   },
   {
-    "id": 33,
+    "id": 24,
     "name": "Monster Bluetooth Water Resistant",
     "price": 290,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Bluetooth/h8.jpeg",
     "category": "it"
   },
   {
-    "id": 34,
+    "id": 25,
     "name": "Green Bluetooth 2 Speaker",
     "price": 310,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Bluetooth/h7.jpeg",
     "category": "it"
   },
   {
-    "id": 35,
+    "id": 26,
     "name": "JACKET protable adventure",
     "price": 330,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Bluetooth/h6.jpeg",
     "category": "it"
   },
   {
-    "id": 36,
+    "id": 27,
     "name": "Haut-Parkour Portable",
     "price": 310,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images//clothing/Bluetooth/h5.jpeg",
     "category": "it"
   },
   {
-    "id": 37,
+    "id": 28,
     "name": "Bluetooth Portable Wireless",
     "price": 290,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Bluetooth/h2.jpeg",
     "category": "it"
   },
   {
-    "id": 38,
+    "id": 29,
     "name": "Altavoz",
     "price": 260,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Bluetooth/h1.jpeg",
     "category": "it"
   },
   {
-    "id": 39,
+    "id": 30,
     "name": "Pasta Stock Pot",
     "price": 180,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Cooking%20Equipment/w0.jpeg",
     "category": "it"
   },
   {
-    "id": 40,
+    "id": 31,
     "name": "Hug the Chicken",
     "price": 260,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Cooking%20Equipment/w4.jpeg",
     "category": "it"
   },
   {
-    "id": 41,
+    "id": 32,
     "name": "Grates Fruit",
     "price": 170,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Cooking%20Equipment/w11.jpeg",
     "category": "it"
   },
   {
-    "id": 42,
+    "id": 33,
     "name": "Soup Pot",
     "price": 180,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Cooking%20Equipment/w2.jpeg",
     "category": "it"
   },
   {
-    "id": 43,
+    "id": 34,
     "name": "Gadget 7 pacas",
     "price": 200,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Cooking%20Equipment/w3.jpeg",
     "category": "it"
   },
   {
-    "id": 44,
+    "id": 35,
     "name": "Meat Cutter",
     "price": 150,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Cooking%20Equipment/w5.jpeg",
     "category": "it"
   },
   {
-    "id": 45,
+    "id": 36,
     "name": "Portable Kitchen",
     "price": 300,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images//clothing/Cooking%20Equipment/w6.jpeg",
     "category": "it"
   },
   {
-    "id": 46,
+    "id": 37,
     "name": "Soup Pot",
     "price": 200,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Cooking%20Equipment/w7.jpeg",
     "category": "it"
   },
   {
-    "id": 47,
+    "id": 38,
     "name": "Portable Burners",
     "price": 290,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Cooking%20Equipment/w8.jpeg",
     "category": "it"
   },
   {
-    "id": 48,
+    "id": 39,
     "name": "Rice Mill",
     "price": 290,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Cooking%20Equipment/w1.jpeg",
     "category": "it"
   },
   {
-    "id": 49,
+    "id": 40,
     "name": "Very Cool Glasses",
     "price": 360,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Glasses/g1.jpeg",
     "category": "it"
   },
   {
-    "id": 50,
+    "id": 41,
     "name": "Pointed Sunglasses",
     "price": 290,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Glasses/g2.jpeg",
     "category": "it"
   },
   {
-    "id": 51,
+    "id": 42,
     "name": "Jean Paul Gaultier Sunglasses",
     "price": 370,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Glasses/g3.jpeg",
     "category": "it"
   },
   {
-    "id": 52,
+    "id": 43,
     "name": "Luxury Fashion Design",
     "price": 320,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Glasses/g4.jpeg",
     "category": "it"
   },
   {
-    "id": 53,
+    "id": 44,
     "name": "Sunglasses In Black With Grey",
     "price": 350,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Glasses/g5.jpeg",
     "category": "it"
   },
   {
-    "id": 54,
+    "id": 45,
     "name": "Retro Sunglasses",
     "price": 380,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Glasses/g7.jpeg",
     "category": "it"
   },
   {
-    "id": 55,
+    "id": 46,
     "name": "Round Glasses",
     "price": 290,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Glasses/g8.jpeg",
     "category": "it"
   },
   {
-    "id": 56,
+    "id": 47,
     "name": "White Collar And Glasses",
     "price": 260,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Glasses/g9.jpeg",
     "category": "it"
   },
   {
-    "id": 57,
+    "id": 48,
     "name": "Hexagonal Glasses",
     "price": 340,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Glasses/g6.jpeg",
     "category": "it"
   },
   {
-    "id": 58,
+    "id": 49,
     "name": "Sacrifice Hat",
     "price": 150,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Hats/a1.jpeg",
     "category": "it"
   },
   {
-    "id": 59,
+    "id": 50,
     "name": "Era Brown New York",
     "price": 200,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Hats/a2.jpeg",
     "category": "it"
   },
   {
-    "id": 60,
+    "id": 51,
     "name": "Gray Black New York hat",
     "price": 140,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Hats/a3.jpeg",
     "category": "it"
   },
   {
-    "id": 61,
+    "id": 52,
     "name": "Black Trapper Hat",
     "price": 220,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Hats/a6.jpeg",
     "category": "it"
   },
   {
-    "id": 62,
+    "id": 53,
     "name": "Black Rapper Hat",
     "price": 340,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Hats/a7.jpeg",
     "category": "it"
   },
   {
-    "id": 63,
+    "id": 54,
     "name": "Cyber Tech-Wear",
     "price": 200,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Hats/a8.jpeg",
     "category": "it"
   },
   {
-    "id": 64,
+    "id": 55,
     "name": "Jack Sparrow Flag Hat",
     "price": 280,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Hats/a12.jpeg",
     "category": "it"
   },
   {
-    "id": 65,
+    "id": 56,
     "name": "Wizkid Hat",
     "price": 250,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Hats/a13.jpeg",
     "category": "it"
   },
   {
-    "id": 66,
+    "id": 57,
     "name": "Black Hat",
     "price": 120,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Hats/a9.jpeg",
     "category": "it"
   },
   {
-    "id": 67,
+    "id": 58,
     "name": "New York Label Hat",
     "price": 340,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Hats/a5.jpeg",
     "category": "it"
   },
   {
-    "id": 68,
+    "id": 59,
     "name": "Hip-Hop Para Hombre",
     "price": 280,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Men/1.jpeg",
     "category": "it"
   },
   {
-    "id": 69,
+    "id": 60,
     "name": "Camiseta Tanjiro Shirt",
     "price": 250,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Men/10.jpeg",
     "category": "it"
   },
   {
-    "id": 70,
+    "id": 61,
     "name": "Short Sleeve V Neck Shirt",
     "price": 210,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Men/11.jpeg",
     "category": "it"
   },
   {
-    "id": 71,
+    "id": 62,
     "name": "Gray Shorts",
     "price": 190,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Men/18.jpeg",
     "category": "it"
   },
   {
-    "id": 72,
+    "id": 63,
     "name": "Summer Fall Blue Shirt",
     "price": 245,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Men/22.jpeg",
     "category": "it"
   },
   {
-    "id": 73,
+    "id": 64,
     "name": "Anime Cartoon Style T-Shirt",
     "price": 320,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Men/23.jpeg",
     "category": "it"
   },
   {
-    "id": 74,
+    "id": 65,
     "name": "Loose Graphic Print Shirt",
     "price": 340,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Men/28.jpeg",
     "category": "it"
   },
   {
-    "id": 75,
+    "id": 66,
     "name": "Kaluntu White Shorts",
     "price": 231,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Men/16.jpeg",
     "category": "it"
   },
   {
-    "id": 76,
+    "id": 67,
     "name": "Print Button Up Shirt",
     "price": 260,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Men/17.jpeg",
     "category": "it"
   },
   {
-    "id": 77,
+    "id": 68,
     "name": "Short Sleeve Collar Neck",
     "price": 220,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Men/24.jpeg",
     "category": "it"
   },
   {
-    "id": 78,
+    "id": 69,
     "name": "Manga Anime T-Shirt",
     "price": 310,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Men/27.jpeg",
     "category": "it"
   },
   {
-    "id": 79,
+    "id": 70,
     "name": "Vans Seldan Leather Skate Shoe",
     "price": 340,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Shoe/r0.jpeg",
     "category": "it"
   },
   {
-    "id": 80,
+    "id": 71,
     "name": "Leandro Sneaker Black",
     "price": 364,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Shoe/r1.jpeg",
     "category": "it"
   },
   {
-    "id": 81,
+    "id": 72,
     "name": "Bunckle Shoe",
     "price": 340,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Shoe/r11.jpeg",
     "category": "it"
   },
   {
-    "id": 82,
+    "id": 73,
     "name": "Guyisa Shoe",
     "price": 420,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Shoe/r12.jpeg",
     "category": "it"
   },
   {
-    "id": 83,
+    "id": 74,
     "name": "Leather Slider Shoe",
     "price": 230,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Shoe/r4.jpeg",
     "category": "it"
   },
   {
-    "id": 84,
+    "id": 75,
     "name": "Joker Sneakers",
     "price": 340,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Shoe/r5.jpeg",
     "category": "it"
   },
   {
-    "id": 85,
+    "id": 76,
     "name": "Sandals Beach Shoe",
     "price": 250,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Shoe/r6.jpeg",
     "category": "it"
   },
   {
-    "id": 86,
+    "id": 77,
     "name": "ZLSK Shoe",
     "price": 430,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Shoe/r7.jpeg",
     "category": "it"
   },
   {
-    "id": 87,
+    "id": 78,
     "name": "Beach Slipper Black",
     "price": 280,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Shoe/r8.jpeg",
     "category": "it"
   },
   {
-    "id": 88,
+    "id": 79,
     "name": "Steve Madden",
     "price": 310,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Shoe/r9.jpeg",
     "category": "it"
   },
   {
-    "id": 89,
+    "id": 80,
     "name": "Sweatshirt Kawaii Mushroom Shirt",
     "price": 350,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/c.jpeg",
     "category": "it"
   },
   {
-    "id": 90,
+    "id": 81,
     "name": "Pink Star Jeans",
     "price": 280,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/e.jpeg",
     "category": "it"
   },
   {
-    "id": 91,
+    "id": 82,
     "name": "Winter Heart Shaped Shirt",
     "price": 250,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/f.jpeg",
     "category": "it"
   },
   {
-    "id": 92,
+    "id": 83,
     "name": "Sexy Crop T-Shirt",
     "price": 300,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/h.jpeg",
     "category": "it"
   },
   {
-    "id": 93,
+    "id": 84,
     "name": "Luxury Fashion",
     "price": 430,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/i.jpeg",
     "category": "it"
   },
   {
-    "id": 94,
+    "id": 85,
     "name": "Short Jeans",
     "price": 200,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/j.jpeg",
     "category": "it"
   },
   {
-    "id": 95,
+    "id": 86,
     "name": "V Neck Sleeve Shirt",
     "price": 260,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/o.jpeg",
     "category": "it"
   },
   {
-    "id": 96,
+    "id": 87,
     "name": "Black Waistcoat",
     "price": 220,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/n.jpeg",
     "category": "it"
   },
   {
-    "id": 97,
+    "id": 88,
     "name": "Cute Cat Hoodie",
     "price": 360,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/r.jpeg",
     "category": "it"
   },
   {
-    "id": 98,
+    "id": 89,
     "name": "Sleeve Print T-Shirt",
     "price": 310,
     "image": "https://github.com/ZinK0/Your-MALL/blob/main/images/clothing/Women/p.jpeg",
     "category": "it"
-  },
-  {
-    "id": 19,
-    "name": "acer laptop",
-    "price": 200,
-    "image": "",
-    "category": "it"
   }
+  
    
 ]
