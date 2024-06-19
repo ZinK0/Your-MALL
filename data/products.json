@@ -1,94 +1,95 @@
 [
+  
   {
     "id": 1,
-    "name": "Macbook Pro 2024",
-    "price": 2499,
-    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/MacBook%20Pro.jpg",
-    "category": "it"
-  },
-  {
-    "id": 2,
     "name": "Huawei 30",
     "price": 250,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu30.jpg",
-    "category": "it"
+    "category": "phone"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Huawei 40",
     "price": 300,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu40.jpg",
-    "category": "it"
+    "category": "phone"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Huawei 60",
     "price": 350,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/hu60.jpg",
-    "category": "it"
+    "category": "phone"
+  },
+  {
+    "id": 4,
+    "name": "iphone 13pro",
+    "price": 599,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/i13.webp",
+    "category": "phone"
   },
   {
     "id": 5,
-    "name": "iphone",
-    "price": 599,
-    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/i13.webp",
-    "category": "it"
+    "name": "iphone 14pro",
+    "price": 699,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/i14.jpeg",
+    "category": "phone"
   },
   {
     "id": 6,
-    "name": "iphone",
-    "price": 699,
-    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/i14.jpeg",
-    "category": "it"
+    "name": "iphone 15 pro max",
+    "price": 999,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/ip15pro.jpg",
+    "category": "phone"
   },
   {
     "id": 7,
-    "name": "iphone",
-    "price": 999,
-    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/ip15pro.jpg",
-    "category": "it"
+    "name": "Samsung Galaxy s21",
+    "price": 350,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/sam21.jpeg",
+    "category": "phone"
   },
   {
     "id": 8,
-    "name": "Samsung",
-    "price": 350,
-    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/sam21.jpeg",
-    "category": "it"
+    "name": "Samsung Galaxy s22",
+    "price": 400,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/samsung.jpeg",
+    "category": "phone"
   },
   {
     "id": 9,
-    "name": "Samsung",
-    "price": 400,
-    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/phones/samsung.jpeg",
-    "category": "it"
+    "name": "Macbook Pro 2024",
+    "price": 2499,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/MacBook%20Pro.jpg",
+    "category": "cumputer"
   },
   {
     "id": 10,
     "name": "MacBook",
     "price": 1199,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/mac.jpg",
-    "category": "it"
+    "category": "cumputer"
   },
   {
     "id": 11,
     "name": "Hp laptop",
     "price": 200,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/hp.jpeg",
-    "category": "it"
+    "category": "cumputer"
   },
   {
     "id": 12,
     "name": "Dell laptop",
     "price": 200,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/dell.png",
-    "category": "it"
+    "category": "cumputer"
   },
   {
     "id": 13,
     "name": "Acer laptop",
     "price": 200,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/acer.jpg",
-    "category": "it"
+    "category": "cumputer"
   },
   {
     "id": 10,
@@ -648,6 +649,27 @@
     "name": "Sleeve Print T-Shirt",
     "price": 310,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Women%20Clothes/p.jpeg",
+    "category": "Women Clothes"
+  },
+  {
+    "id": 90,
+    "name": "Frog Shirt",
+    "price": 260,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Women%20Clothes/g.jpeg",
+    "category": "Women Clothes"
+  },
+  {
+    "id": 91,
+    "name": "CHANEL White Cotton Crop Shirt",
+    "price": 220,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Women%20Clothes/s.jpeg",
+    "category": "Women Clothes"
+  },
+  {
+    "id": 92,
+    "name": "Black and White Crop Blouse",
+    "price": 210,
+    "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Women%20Clothes/t.jpeg",
     "category": "Women Clothes"
   }
 
