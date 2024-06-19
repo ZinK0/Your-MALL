@@ -69,6 +69,7 @@ $(document).ready(function () {
   $("#products-list").on("click", ".add-to-cart", function () {
     let product = {
       id: $(this).data("id"),
+      cartItemID: $(this).data("id") + "-" + new Date().getTime(),
       name: $(this).data("name"),
       price: $(this).data("price"),
       image: $(this).data("image"),
