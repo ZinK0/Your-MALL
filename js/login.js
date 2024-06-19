@@ -15,6 +15,9 @@ $(document).ready(function () {
 
   // Function to check user input name and password in array for registered or new
   // TODO: future update have to add two option like email and username
+
+  let userProfile;
+
   function checkRegisteredUser(toCheck, registeredUsers) {
     let found = false;
     for (const user of registeredUsers) {
@@ -22,18 +25,28 @@ $(document).ready(function () {
         user.username === toCheck.username &&
         user.password === toCheck.password
       ) {
+        userProfile = user.userprofile;
         found = true;
         console.log("Founded!!!");
+        console.log("User Profile", user.userprofile);
         break; // No need to continue loop if user is found
       }
     }
     return found;
   }
 
+  // console.log(userProfile);
+
   let loginUsername = document.getElementById("login_name");
   let loginPassword = document.getElementById("login_password");
   let loginForm = document.querySelector("#login_form");
 
+  // Get userprofile
+  // function getUserProfile (to) {
+  //   for (const user of registeredUsers) {
+  //     if user.username === input
+  //   }
+  // }
   // Save Login State
   function saveLoginState() {
     let loginState = {

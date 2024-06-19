@@ -62,6 +62,7 @@ function addToCart(product) {
 
 // Get the login state
 let loginState = JSON.parse(localStorage.getItem("loginState"));
+console.log(loginState);
 
 $(document).ready(function () {
   //   updateCartUI();
@@ -105,6 +106,8 @@ function setLoginProfile(loginState) {
         </div>
     </li>
     `);
+  } else {
+    console.log("Gest mode can't add to shopping cart");
   }
 }
 
