@@ -1,5 +1,10 @@
 let cartItems = JSON.parse(localStorage.getItem("cart"));
 
+const cartBtn = $("#cart-btn");
+cartBtn.html(`
+          <button id="checkout-btn" class="btn btn-danger checkout-btn btn-lg">Check Out</button>
+      `);
+
 function showCartItems(cartItems) {
   const cartList = $("#cart-lists");
 
@@ -7,10 +12,6 @@ function showCartItems(cartItems) {
   cartList.empty();
 
   if (cartItems.length > 0) {
-    const cartBtn = $("#cart-btn");
-    cartBtn.html(`
-          <button id="checkout-btn" class="btn btn-danger checkout-btn">Check Out</button>
-      `);
     const cartList = document.getElementById("cart-lists");
     cartItems.forEach((cartItem) => {
       const cartDiv = document.createElement("li");
@@ -65,4 +66,19 @@ $(document).on("click", "#cart-remove-btn", function () {
   localStorage.setItem("cart", JSON.stringify(cartItems));
   console.log(selectedItem);
   showCartItems(cartItems);
+  cartTotalPrice();
+  console.log(cartTotalPrice());
+  $("#total-price").text("$" + cartTotalPrice());
 });
+
+function cartTotalPrice() {
+  let totalprice = 0;
+  cartItems.forEach((cartItem) => {
+    totalprice += cartItem.price;
+  });
+  return totalprice;
+}
+
+$("#total-price").text("$" + cartTotalPrice());
+
+console.log(cartTotalPrice());

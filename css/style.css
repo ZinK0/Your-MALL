@@ -299,11 +299,11 @@ footer {
   align-items: center;
 }
 
-#cart-btn {
+/* #cart-btn {
   position: fixed;
   top: 80%;
   left: 80%;
-}
+} */
 
 marquee {
   font-size: 1.5rem;
