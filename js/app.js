@@ -1,4 +1,6 @@
 // Function to fetch products and display them
+let fetched_data;
+
 $(document).ready(function () {
   async function fetchProducts() {
     try {
@@ -6,7 +8,11 @@ $(document).ready(function () {
         "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/data/products.json"
       );
       const products = await response.json();
-      console.log(products);
+
+      // changing objects into array
+      fetched_data = products;
+      console.log(typeof products);
+      console.log("products", products);
 
       // Display products
       const productsList = document.getElementById("products-list");
@@ -44,6 +50,37 @@ $(document).ready(function () {
     } catch (error) {
       console.error("Error fetching the products:", error);
     }
+
+    // Filter the products on home page
+    $("#product-categories-btns").on(
+      "click",
+      "#product-filter-btn",
+      function () {
+        console.log("Product Filter button is working");
+
+        let selectedCategory = $(this).data("category");
+
+        console.log("selected category working", selectedCategory);
+        if (selectedCategory == "all") {
+          console.log("All is working");
+          fetchProducts();
+        } else {
+          console.log("ELSE is working");
+          // Test
+          console.log(fetched_data);
+
+          //Create the array for the filtered products
+          let filteredProducts = [];
+          fetched_data.forEach((product) => {
+            if (product.category === selectedCategory) {
+              filteredProducts.push(product);
+            }
+          });
+          console.log("filtered product working ==>", filteredProducts);
+          fetchProducts(filteredProducts);
+        }
+      }
+    );
   }
   // Call the function to fetch products on page load
   fetchProducts();
