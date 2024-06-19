@@ -345,12 +345,15 @@ marquee {
 }
 /* topbtn */
 .topbtn {
-  font-size: 2rem;
+  font-size: 3rem;
   /* text-align: right; */
   position: fixed;
-  right: 8%;
-  top: 90%;
+  right: 5%;
+  top: 85%;
   border: none;
+}
+.topbtn i {
+  color: var(--theme-color) !important;
 }
 /* $ text-body */
 .text-body-secondary {
