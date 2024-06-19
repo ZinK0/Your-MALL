@@ -66,11 +66,13 @@ $(document).ready(function () {
 
     // Fetch registered users
     let registeredAccounts = await fetchSignedUpUser();
-    // console.log(registeredAccounts);
 
+    // Fetch again for update users
+    let updatedSignedUser = JSON.parse(localStorage.getItem("registeredUser"));
+    console.log("update user ==>", updatedSignedUser);
     // You have to get the login success data for unlock the feature in ecommerce
     // TODO: separate the function for login success data
-    if (checkRegisteredUser(loginDATA, registeredAccounts)) {
+    if (checkRegisteredUser(loginDATA, updatedSignedUser)) {
       alert("Login Success!!!");
       saveLoginState();
       // Redirect to index.html

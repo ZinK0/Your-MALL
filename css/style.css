@@ -236,6 +236,9 @@
 }
 
 /*footer section*/
+footer {
+  margin-top: 50px;
+}
 
 .footer_heading {
   color: var(--theme-color);
