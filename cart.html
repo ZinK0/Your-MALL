@@ -39,7 +39,47 @@
       </div>
       <div id="cart-btn"></div>
     </section>
+
+    <section id="receipt_section" class="displayNone">
+      <div id="receipt_title">
+        <h1>Thank you for your order</h1>
+        <div id="order_id_date">
+          <p>Order ID: <span id="order_id"></span></p>
+          <p>Date: <span id="receipt_date"></span></p>
+        </div>
+        <div id="order_time">
+          <p>
+            Dear <span id="ordered_user"></span>, your product will be shipped
+            in the next two days.
+          </p>
+        </div>
+      </div>
+      <div id="receipt_list">
+        <ol id="receipt_list_ol">
+          <!-- Purchased Products will be dynamicall here  -->
+        </ol>
+      </div>
+      <div id="receipt_total_container">
+        <div id="total_container">
+          <div></div>
+          <div><p>Total</p></div>
+        </div>
+        <div id="receipt_total_value">
+          <p id="receipt_total_number"></p>
+        </div>
+      </div>
+      <div id="receipt_help">
+        <p>Need Help? contact us on our <a href="#">Help Center</a></p>
+      </div>
+      <div id="receipt_button">
+        <button class="btn btn-primary" id="save_receipt_close">Close</button>
+        <button class="btn btn-success" id="save_receipt_btn">
+          Save Receipt
+        </button>
+      </div>
+    </section>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="./js/cart.js"></script>

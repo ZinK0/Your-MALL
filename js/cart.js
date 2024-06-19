@@ -45,13 +45,98 @@ showCartItems(cartItems);
 
 $(document).ready(function () {
   $("#checkout-btn").on("click", () => {
-    localStorage.removeItem("cart");
-    $("#cart-lists").empty();
+    // window.location.href = "cart.html";
+    $("#cart-section").addClass("displayNone");
 
-    alert("Thanks for shopping with us.");
+    $("#receipt_section").removeClass("displayNone");
+
+    // alert("Thanks for shopping with us.");
     // updateCartUI();
-    // Redirect to index.html
-    window.location.href = "index.html";
+
+    function showReceipt() {
+      // Date section
+      const date = new Date();
+      const formattedDate = formatDate(date);
+      $("#receipt_date").text(formattedDate);
+
+      // Unique order id ( have to change later and save for the check )
+      $("#order_id").text(new Date().getTime());
+
+      // change user name for thanks
+      let signedInUsername = JSON.parse(localStorage.getItem("loginState"));
+      $("#ordered_user").text(signedInUsername.name);
+
+      //loop the added cart to show
+      let cartItems = JSON.parse(localStorage.getItem("cart"));
+
+      cartItems.forEach((cartItem) => {
+        $("#receipt_list_ol").append(`
+          <li>
+            <div id="receipt_list_container">
+              <div id="receipt_img_desc">
+                <img src="${cartItem.image}" alt=""${cartItem.image}" />
+                <h3>${cartItem.name}</h3>
+              </div>
+              <div id="receipt_product_price">
+                <h3>$${cartItem.price}.00</h3>
+              </div>
+            </div>
+          </li>
+        `);
+      });
+
+      $("#receipt_total_number").text("$" + cartTotalPrice() + ".00");
+    }
+
+    showReceipt();
+  });
+  $(document).ready(function () {
+    $("#save_receipt_btn").on("click", function () {
+      // To remove the button in saved picture
+      $("#receipt_button").addClass("displayNone");
+
+      // Ensure receipt section is visible and added to the document
+      $("#receipt_section").removeClass("displayNone");
+
+      // Function to download the receipt as an image
+      const receiptContainer = $("#receipt_section");
+
+      setTimeout(() => {
+        // Get the container element after it's added to the document
+        const receiptContainer = document.getElementById("receipt_section");
+
+        html2canvas(receiptContainer)
+          .then((canvas) => {
+            const link = document.createElement("a");
+            link.download = "receipt.png";
+            link.href = canvas.toDataURL("image/png");
+            link.click();
+
+            // Clear localStorage
+            localStorage.removeItem("cart");
+
+            // Redirect to index.html
+            window.location.href = "index.html";
+          })
+          .catch((error) => {
+            console.error("Error generating receipt image:", error);
+            alert("Error generating receipt image. Please try again later.");
+          });
+      }, 300); // Adjust delay time as needed
+    });
+    $("#save_receipt_close").on("click", function () {
+      //close save button
+      $("#receipt_section").addClass("displayNone");
+
+      //Say thanks you
+      alert("Thanks for shopping with us.");
+
+      // Clear localStorage
+      localStorage.removeItem("cart");
+
+      // Redirect to index.html
+      window.location.href = "index.html";
+    });
   });
 });
 
@@ -82,3 +167,69 @@ function cartTotalPrice() {
 $("#total-price").text("$" + cartTotalPrice());
 
 console.log(cartTotalPrice());
+
+// Purchase Receipt Section Start Here
+
+function formatDate(date) {
+  // Helper function to add leading zero if needed
+  function addLeadingZero(number) {
+    return number < 10 ? "0" + number : number;
+  }
+
+  // Extract parts of the date
+  const day = addLeadingZero(date.getDate());
+  const month = addLeadingZero(date.getMonth() + 1); // Months are zero-based
+  const year = date.getFullYear();
+
+  // Extract parts of the time
+  let hours = date.getHours();
+  const minutes = addLeadingZero(date.getMinutes());
+  const seconds = addLeadingZero(date.getSeconds());
+
+  // Determine AM/PM
+  const ampm = hours >= 12 ? "PM" : "AM";
+  hours = hours % 12;
+  hours = hours ? hours : 12; // The hour '0' should be '12'
+  const formattedHours = addLeadingZero(hours);
+
+  // Combine into the desired format
+  const formattedDate = `${day}/${month}/${year}, ${formattedHours}:${minutes}:${seconds} ${ampm}`;
+  return formattedDate;
+}
+
+// function showReceipt() {
+//   // Date section
+//   const date = new Date();
+//   const formattedDate = formatDate(date);
+//   $("#receipt_date").text(formattedDate);
+
+//   // Unique order id ( have to change later and save for the check )
+//   $("#order_id").text(new Date().getTime());
+
+//   // change user name for thanks
+//   let signedInUsername = JSON.parse(localStorage.getItem("loginState"));
+//   $("#ordered_user").text(signedInUsername.name);
+
+//   //loop the added cart to show
+//   let cartItems = JSON.parse(localStorage.getItem("cart"));
+
+//   cartItems.forEach((cartItem) => {
+//     $("#receipt_list_ol").append(`
+//       <li>
+//         <div id="receipt_list_container">
+//           <div id="receipt_img_desc">
+//             <img src="${cartItem.image}" alt=""${cartItem.image}" />
+//             <h3>${cartItem.name}</h3>
+//           </div>
+//           <div id="receipt_product_price">
+//             <h3>$${cartItem.price}.00</h3>
+//           </div>
+//         </div>
+//       </li>
+//     `);
+//   });
+
+//   $("#receipt_total_number").text("$" + cartTotalPrice() + ".00");
+// }
+
+// showReceipt();
