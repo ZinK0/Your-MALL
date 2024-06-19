@@ -90,9 +90,30 @@
                   >
                 </li> -->
                 <li class="nav-item">
-                  <a class="nav-link" href="cart.html"
-                    ><i class="bi bi-cart3 h4"></i>
+                  <a class="h2 nav-link position-relative" href="cart.html"
+                    >Cart
+                    <span
+                      id="cart-items-noti"
+                      class="cart-nothing position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                    ></span>
                   </a>
+                </li>
+                <!-- <li class="nav-item">
+                  <button
+                    type="button"
+                    class="btn btn-primary position-relative"
+                  >
+                    Inbox
+                    <span
+                      id="cart-items-noti"
+                      class="cart-nothing position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                    >
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </button>
+                </li> -->
+                <li id="logout-btn-container">
+
                 </li>
               </ul>
             </div>
@@ -124,13 +145,21 @@
     <section id="carousel_section" class="w80">
       <div id="product-categories" class="">
         <ul id="product-categories-btns">
-          <li>‌<a href="#">Woman Clothes</a></li>
+          <li>
+            <button
+              style="border: none"
+              id="product-filter-btn"
+              data-category="Beauty Products"
+            >
+              Woman Clothings
+            </button>
+          </li>
           <li>Man Clothes</li>
           <li>
             <button
               style="border: none"
               id="product-filter-btn"
-              data-category="it"
+              data-category="phone"
             >
               Phones
             </button>

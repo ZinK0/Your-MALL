@@ -11,7 +11,11 @@ function showCartItems(cartItems) {
   // Clear the previous list
   cartList.empty();
 
-  if (cartItems.length > 0) {
+  if (!cartItems || cartItems.length === 0) {
+    alert("Your cart is empty!");
+    // Redirect to index.html
+    window.location.href = "index.html";
+  } else {
     const cartList = document.getElementById("cart-lists");
     cartItems.forEach((cartItem) => {
       const cartDiv = document.createElement("li");
@@ -34,10 +38,6 @@ function showCartItems(cartItems) {
       `;
       cartList.appendChild(cartDiv);
     });
-  } else {
-    alert("Your cart is empty!");
-    // Redirect to index.html
-    window.location.href = "index.html";
   }
 }
 

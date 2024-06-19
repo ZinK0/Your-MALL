@@ -2,6 +2,8 @@
 let fetched_data;
 
 $(document).ready(function () {
+  setLoginProfile(loginState);
+
   async function fetchProducts() {
     try {
       const response = await fetch(
@@ -15,6 +17,9 @@ $(document).ready(function () {
       console.log("products", products);
 
       // Display products
+
+      //Test
+      //   updateCartUI();
       const productsList = document.getElementById("products-list");
       products.forEach((product) => {
         const productDiv = document.createElement("div");
@@ -56,9 +61,14 @@ $(document).ready(function () {
       "click",
       "#product-filter-btn",
       function () {
+        //Test
+        const productsList = document.getElementById("products-list");
+        productsList.innerHTML = "";
         console.log("Product Filter button is working");
 
         let selectedCategory = $(this).data("category");
+        //Test
+        console.log(selectedCategory);
 
         console.log("selected category working", selectedCategory);
         if (selectedCategory == "all") {
@@ -70,14 +80,52 @@ $(document).ready(function () {
           console.log(fetched_data);
 
           //Create the array for the filtered products
-          let filteredProducts = [];
-          fetched_data.forEach((product) => {
-            if (product.category === selectedCategory) {
-              filteredProducts.push(product);
-            }
-          });
+          let filteredProducts = fetched_data.filter(
+            (product) => product.category === selectedCategory
+          );
           console.log("filtered product working ==>", filteredProducts);
-          fetchProducts(filteredProducts);
+
+          const productsList = document.getElementById("products-list");
+
+          filteredProducts.forEach((product) => {
+            // Test
+            console.log(product.id);
+            const productDiv = document.createElement("div");
+            productDiv.classList.add(
+              "col-sm-12",
+              "col-md-4",
+              "col-lg-3",
+              "g-3"
+            );
+            productDiv.innerHTML = `
+                <div class="p-3 card card_shadow product-card" data-category="${product.category}">
+                    <div class="img_container">
+                        <img id="product-img" src="${product.image}" class="rounded card-img-top" alt="${product.name}">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">${product.name}</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <small class="text-body-secondary">
+
+                            $<span id="product_price">${product.price}</span>
+                          </small>
+
+                          <div class="btn-group">
+                            <button id="add-to-cart" class="fav_add" >
+                              <i class="add-to-cart bi bi-bag-plus-fill h3" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}" data-image="${product.image}" data-category="${product.category}"></i>
+                            </button>
+                            <button class="fav_add">
+                              <i class="bi bi-bag-heart-fill h3"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                `;
+
+            productsList.appendChild(productDiv);
+          });
         }
       }
     );
@@ -91,10 +139,27 @@ $(document).ready(function () {
 // take cart from localstorage if there is or start empty list
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
+// Notification for cart added items
+function updateCartUI() {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  if (!cart || cart.length == 0) {
+    // $("#cart-items-noti").addClass("cart-nothing");
+    console.log("CartUI with no cart");
+  } else {
+    $("#cart-items-noti").text(cart.length);
+    $("#cart-items-noti").removeClass("cart-nothing");
+
+    $("#cart-items-noti").addClass("cart-show");
+
+    console.log("CartUI with  cart");
+  }
+}
+
 function addToCart(product) {
   cart.push(product);
   localStorage.setItem("cart", JSON.stringify(cart));
-  // updateCartUI();
+  updateCartUI();
 }
 
 // Get the login state
@@ -102,7 +167,7 @@ let loginState = JSON.parse(localStorage.getItem("loginState"));
 console.log(loginState);
 
 $(document).ready(function () {
-  //   updateCartUI();
+  //updateCartUI();
   $("#products-list").on("click", ".add-to-cart", function () {
     let product = {
       id: $(this).data("id"),
@@ -131,12 +196,15 @@ $(document).ready(function () {
     }
     // console.log(loginState.state);
     // console.log("hello");
+    updateCartUI();
   });
 });
 
 // Change login profile when the login state is true
 function setLoginProfile(loginState) {
-  if (loginState.state) {
+  if (!loginState) {
+    console.log("Gest mode can't add to shopping cart");
+  } else {
     $(".login-nav-btn").replaceWith(`
     <li class="nav-item">
         <div class="profile-img">
@@ -144,9 +212,25 @@ function setLoginProfile(loginState) {
         </div>
     </li>
     `);
-  } else {
-    console.log("Gest mode can't add to shopping cart");
   }
 }
 
 setLoginProfile(loginState);
+
+// Logout Button Section
+function logoutBtnAdd(state) {
+  if (state) {
+    $("#logout-btn-container").append(`
+        <button id="logout-btn">Logout</button>
+        `);
+  }
+}
+
+logoutBtnAdd(loginState);
+
+$("#logout-btn").on("click", function () {
+  localStorage.removeItem("loginState");
+
+  //reload
+  window.location.href = "index.html";
+});

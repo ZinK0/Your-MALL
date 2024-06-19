@@ -112,6 +112,17 @@
 }
 
 /* Cart Title Section Start Here  */
+#cart-item-noti-size {
+  font-size: 10px;
+}
+.cart-nothing {
+  display: none !important;
+}
+
+.cart-show {
+  display: inline-block;
+}
+
 #card-title-section {
   margin-bottom: 20px;
 }
@@ -150,6 +161,12 @@
 }
 #login_btn {
   width: 150px;
+}
+
+/* Logout Button Section Start Here  */
+#logout-btn-container button {
+  border: none;
+  background-color: var(--bg-color);
 }
 
 /* Search Box Styles Start here */
