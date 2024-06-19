@@ -187,12 +187,12 @@ $(document).ready(function () {
     }
 
     // Check the loginstate and precess the add to cart function
-    if (loginState.state) {
-      addToCart(product);
-      // alert("Added Successfully!");
-    } else {
+    if (!loginState || loginState.state === false) {
       alert("You need to login before adding to your cart!");
       window.location.href = "login.html";
+    } else {
+      addToCart(product);
+      // alert("Added Successfully!");
     }
     // console.log(loginState.state);
     // console.log("hello");
@@ -202,7 +202,7 @@ $(document).ready(function () {
 
 // Change login profile when the login state is true
 function setLoginProfile(loginState) {
-  if (!loginState) {
+  if (!loginState || loginState.state === false) {
     console.log("Gest mode can't add to shopping cart");
   } else {
     $(".login-nav-btn").replaceWith(`
@@ -219,7 +219,9 @@ setLoginProfile(loginState);
 
 // Logout Button Section
 function logoutBtnAdd(state) {
-  if (state) {
+  if (!state || state.state === false) {
+    console.log("Can' add logout button without login");
+  } else {
     $("#logout-btn-container").append(`
         <button id="logout-btn">Logout</button>
         `);

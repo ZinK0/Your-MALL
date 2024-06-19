@@ -81,6 +81,7 @@
 #product-categories-btns button {
   border: none;
   background-color: var(--bg-color);
+  padding: 3px 0;
 }
 
 #product-categories-btns button:hover {
