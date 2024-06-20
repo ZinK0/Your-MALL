@@ -1,5 +1,5 @@
 [
-  
+
   {
     "id": 1,
     "name": "Huawei 30",
@@ -61,35 +61,35 @@
     "name": "Macbook Pro 2024",
     "price": 2499,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/MacBook%20Pro.jpg",
-    "category": "cumputer"
+    "category": "computer"
   },
   {
     "id": 10,
     "name": "MacBook",
     "price": 1199,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/mac.jpg",
-    "category": "cumputer"
+    "category": "computer"
   },
   {
     "id": 11,
     "name": "Hp laptop",
     "price": 200,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/hp.jpeg",
-    "category": "cumputer"
+    "category": "computer"
   },
   {
     "id": 12,
     "name": "Dell laptop",
     "price": 200,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/dell.png",
-    "category": "cumputer"
+    "category": "computer"
   },
   {
     "id": 13,
     "name": "Acer laptop",
     "price": 200,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/laptops/acer.jpg",
-    "category": "cumputer"
+    "category": "computer"
   },
   {
     "id": 10,
