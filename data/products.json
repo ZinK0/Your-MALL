@@ -1,5 +1,4 @@
 [
-
   {
     "id": 1,
     "name": "Huawei 30",
@@ -96,7 +95,7 @@
     "name": "color Bloom liquid Blush",
     "price": 240,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Beauty%20Products/b1.jpeg",
-    "category": "it"
+    "category": "Beauty Products"
   },
   {
     "id": 11,
@@ -166,7 +165,7 @@
     "name": "Defender Portable Speaker",
     "price": 260,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Beauty%20Products/b0.jpeg",
-    "category": "Bluetooth"
+    "category": "Beauty Products"
   },
   {
     "id": 21,
@@ -208,7 +207,7 @@
     "name": "JACKET protable adventure",
     "price": 330,
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Bluetooth/h6.jpeg",
-    "category": "Bluetooth"
+    "category": "computer"
   },
   {
     "id": 27,
@@ -672,6 +671,4 @@
     "image": "https://raw.githubusercontent.com/ZinK0/Your-MALL/main/images/product%20images/clothing/Women%20Clothes/t.jpeg",
     "category": "Women Clothes"
   }
-
-
 ]
