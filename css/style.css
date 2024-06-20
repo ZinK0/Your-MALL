@@ -13,6 +13,10 @@
   font-family: "League Spartan", sans-serif;
 }
 
+.displayNone {
+  display: none;
+}
+
 .w80 {
   width: 80%;
   margin: auto;
@@ -28,6 +32,18 @@
 }
 
 /* Navbar Section Styles  */
+/* Category drop down when the offcanvas body enable
+ */
+@media (max-width: 430px) {
+  .offcanvas #product-categories-btns {
+    display: inline-block;
+  }
+
+  #carousel_section {
+    display: none !important;
+  }
+}
+
 .nav_color {
   background-color: var(--bg-color);
 }
@@ -84,6 +100,7 @@
 
 /* Product Categories & Carousel Section Start Here  */
 #product-categories-btns button {
+  text-align: start;
   border: none;
   background-color: var(--bg-color);
   padding: 3px 0;
@@ -103,7 +120,7 @@
 }
 
 #product-categories {
-  width: 25%;
+  /* width: 25%; */
   /* height: 200px; */
   padding: 35px 50px;
   background-color: var(--bg-color);
