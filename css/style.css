@@ -99,6 +99,17 @@
 }
 
 /* Product Categories & Carousel Section Start Here  */
+@media (max-width: 1024px) {
+  .carousel img {
+    height: 230px !important;
+  }
+
+  #product-categories {
+    height: 230px;
+    overflow: hidden;
+  }
+}
+
 #product-categories-btns button {
   text-align: start;
   border: none;
